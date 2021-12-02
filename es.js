@@ -1,2 +1,2 @@
-self.shadowedMap=function(t){"use strict";
-/*! (c) Andrea Giammarchi - ISC */const s=t=>{const s=new WeakMap,e=e=>s.get(e)[t]();return class{constructor(t){s.set(this,t)}get size(){return s.get(this).size}has(t){for(const s of e(this))if(s===t)return!0;return!1}forEach(t,s){for(const r of e(this))t.call(s,r,r,this)}keys(){return e(this)}values(){return e(this)}[Symbol.iterator](){return e(this)}}},e=s("keys"),r=s("values");return t.Keys=e,t.Values=r,t}({});
+/*! (c) Andrea Giammarchi - ISC */
+const t=t=>{const s=new WeakMap,r=r=>s.get(r)[t]();return class{constructor(t){s.set(this,t)}get size(){return s.get(this).size}has(t){for(const s of r(this))if(s===t)return!0;return!1}forEach(t,s){for(const e of r(this))t.call(s,e,e,this)}keys(){return r(this)}values(){return r(this)}[Symbol.iterator](){return r(this)}}},s=t("keys"),r=t("values");export{s as Keys,r as Values};
