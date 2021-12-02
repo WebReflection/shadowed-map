@@ -1,6 +1,6 @@
 {
   "name": "shadowed-map",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A read-only Set for maps' keys or values",
   "main": "./cjs/index.js",
   "scripts": {
