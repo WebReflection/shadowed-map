@@ -23,4 +23,8 @@ keys.has('a');  // true
 keys.keys();    // iterator
 keys.values();  // iterator
 keys.forEach;   // same as Set#forEach
+
+map.set('c', 3);
+[...keys];      // a, b, c
+[...values];    // 1, 2, 3
 ```

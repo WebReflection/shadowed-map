@@ -34,3 +34,9 @@ console.assert(args[1][0] === keys);
 console.assert(args[1][1] === 2);
 console.assert(args[1][2] === 2);
 console.assert(args[1][3] === values);
+
+map.set('c', 3);
+console.assert(keys.has('c'));
+console.assert([...keys].join(',') === 'a,b,c');
+console.assert([...values].join(',') === '1,2,3');
+
